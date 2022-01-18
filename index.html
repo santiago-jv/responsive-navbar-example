@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">
+            <img class="logo" src="https://docs.nestjs.com/assets/logo-small.svg" alt="Nest js">
+            Nest js
+        </h1>
+
+        <nav class="header__navbar">
+            <header class="navbar__header">
+                <h1 class="navbar__title">
+                    Menu
+                </h1>
+                <i class="fas fa-times navbar__close-icon"></i>
+            </header>
+            <ul class="navbar__items">
+                <li class="navbar__item">
+                    <a href="https://docs.nestjs.com/" class="navbar__link">
+                        Documentation
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="https://nestjs.com/" class="navbar__link">
+                        Homepage
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="https://github.com/nestjs/nest" class="navbar__link">
+                        Github
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="https://enterprise.nestjs.com/" class="navbar__link">
+                        Enterprise
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <i class="fas fa-bars header__menu-button"></i>
+    </header>
+    <div class="background"></div>
+
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
