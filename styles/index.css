@@ -169,4 +169,7 @@ body{
     .navbar__item:hover .navbar__link{
         background-color: transparent;
     }
+    .background{
+        display: none;
+    }
 }
